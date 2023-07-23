@@ -1,0 +1,10 @@
+.butt button {
+    background-color: #094723;
+    color: white;
+    align-items: center;
+    border-radius: 4rem;
+}
+.butt button:hover{
+    text-decoration: underline;
+    color: #dcffea;
+}

@@ -1,0 +1,28 @@
+.progress{
+  width: 45%;
+  color: #094723;
+  border-radius: 20px;
+    
+}
+.teez{
+    background-color: rgba(0,0, 0, 0.1);
+    border-radius: 20px;
+  
+}
+.dash{
+    font-size: 2.5;
+    color:#094723;
+   
+}
+.text1{
+    font-size: 1.2rem;
+    color:#094723;
+}
+.rp a{ 
+   
+ color: white;
+}
+.rp a:hover{
+    text-decoration: underline;
+    color: white;
+}

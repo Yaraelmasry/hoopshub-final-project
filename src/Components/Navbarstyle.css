@@ -1,0 +1,40 @@
+.console-button, .nav-button {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  width: auto;
+}
+.texth{
+  font-size: 1.4rem;
+}
+
+.console-button:hover, .nav-button:hover,
+.console-button:focus, .nav-button:focus {
+  color: #dcffea;
+  outline: none;
+  text-decoration: underline;
+}
+
+
+
+body > .skiptranslate {
+  display: none;
+}
+
+/* Remove Google top bar and margin */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+} 
+body {
+  top: 0px !important; 
+}
+
+/* Disable google translate original text tooltips */  
+#goog-gt-tt, .goog-te-balloon-frame{display: none !important;} 
+.goog-text-highlight { background: none !important; box-shadow: none !important;}
+
